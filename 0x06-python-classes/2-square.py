@@ -1,20 +1,22 @@
 #!/usr/bin/pyth0n3
 """
 Module 2-square
-Defines class Square with private size and validates size
+Defines class Square with private attribute size and validates size
 """
 
 
 class Square:
-    """Represents a square"""
-
+    """
+    Represents a square.
+    instantiation with optional size.
+    """
     def __init__(self, size=0):
         """
         Initializes square
         Attributes:
-            size (int): size=0
+            __size (int): size of new square, default is 0
         """
-        if type(size) is not int:
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
