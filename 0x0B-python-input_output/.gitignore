@@ -1,0 +1,11 @@
+*main.py
+my_file_0.txt
+8-my_class.py
+8-my_class_2.py
+8-main_2.py
+10-my_class_2.py
+10-my_class.py
+__pycache__
+*.txt
+*.json
+101-generator.py
