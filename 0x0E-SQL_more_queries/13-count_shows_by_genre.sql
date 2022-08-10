@@ -1,7 +1,2 @@
---  lists all shows contained in hbtn_0d_tvshows without a genre linked
--- lists all rows of a database that don't have one column
-SELECT tv_shows.title, tv_show_genres.genre_id
-FROM tv_shows LEFT JOIN tv_show_genres
-ON tv_shows.id = tv_show_genres.show_id
-WHERE tv_show_genres.genre_id IS NULL
-ORDER BY tv_shows.title ASC, tv_show_genres.genre_id ASC;
+-- lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows
+SELECT a.title, c.name FROM tv_shows a LEFT JOIN tv_show_genres b ON a.id = b.show_id LEFT JOIN tv_genres c ON b.genre_id = c.id ORDER BY a.title ASC, c.name ASC;
