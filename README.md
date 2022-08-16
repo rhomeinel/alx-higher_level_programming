@@ -22,12 +22,16 @@ ALX-curriculum for high-level programming. These projects are meant to help us l
 
 ### [0x07. Python - Python Test Driven Development](./0x07-python-test_driven_development)
 
-### [0x08. Python - Python more classes](./0x08-python-more_classes)
+### [0x08. Python - More classes](./0x08-python-more_classes)
 
-### [0x09. Python - Python everything is object](./0x09-python-everything_is_object)
+### [0x09. Python - Everything is object](./0x09-python-everything_is_object)
 
-### [0x0A. Python - Python-Inheritance](./0x0A-python-inheritance)
+### [0x0A. Python - Inheritance](./0x0A-python-inheritance)
 
-### [0x0B. Python - Python-Input/Output](./0x0B-python-input_output)
+### [0x0B. Python - Input/Output](./0x0B-python-input_output)
 
-### [0x0B. Python - Python-Almost a circle](./0x0C-python-almost_a_circle)
+### [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+
+### [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+
+### [0x0E. SQL - More queries](./0x0D-SQL_introduction)
