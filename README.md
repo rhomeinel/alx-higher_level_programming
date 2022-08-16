@@ -27,3 +27,7 @@ ALX-curriculum for high-level programming. These projects are meant to help us l
 ### [0x09. Python - Python everything is object](./0x09-python-everything_is_object)
 
 ### [0x0A. Python - Python-Inheritance](./0x0A-python-inheritance)
+
+### [0x0B. Python - Python-Input/Output](./0x0B-python-input_output)
+
+### [0x0B. Python - Python-Almost a circle](./0x0C-python-almost_a_circle)
