@@ -49,8 +49,8 @@ Files | Description
 
 ## Install Node 14
 '''
-	1 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-	2 sudo apt-get install -y nodejs
+1. curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+2. sudo apt-get install -y nodejs
 '''
 
  ### Install semi-standard
