@@ -48,11 +48,12 @@ Files | Description
 [103-object_fct.js](./103-object_fct.js) | JS script that adds a new function incr that increments the integer value of the object myObject
 
 ## Install Node 14
-'''
+```
 1. curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 2. sudo apt-get install -y nodejs
-'''
+```
 
  ### Install semi-standard
- 
+ ```
  - sudo npm install semistandard --global
+ ```
