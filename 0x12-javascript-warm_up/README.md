@@ -55,5 +55,5 @@ Files | Description
 
  ### Install semi-standard
  ```
- - sudo npm install semistandard --global
+  sudo npm install semistandard --global
  ```
