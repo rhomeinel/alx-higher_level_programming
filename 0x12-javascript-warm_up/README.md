@@ -46,3 +46,13 @@ Files | Description
 [101-call_me_moby.js](./101-call_me_moby.js) | JS function that executes x times a function
 [102-add_me_maybe.js](./102-add_me_maybe.js) | JS function that increments and calls a function
 [103-object_fct.js](./103-object_fct.js) | JS script that adds a new function incr that increments the integer value of the object myObject
+
+## Install Node 14
+'''
+ - curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+ - sudo apt-get install -y nodejs
+'''
+
+ ### Install semi-standard
+ 
+ - sudo npm install semistandard --global
