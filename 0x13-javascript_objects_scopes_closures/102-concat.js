@@ -1,9 +1,10 @@
 #!/usr/bin/node
 
-const { dict } = require('./101-data');
+const fs = require('fs');
 
-const myValue = Object.entries(dict).reduce((acc, [key, value]) => {
-  acc[value] = acc[value] ? [...acc[value], key] : [key];
-  return acc;
-}, {});
-console.log(myValue);
+const contentA = fs.readFileSync(process.argv[2], 'utf8', function (err, result) { if (err) console.log('error', err); });
+const contentB = fs.readFileSync(process.argv[3], 'utf8', function (err, result) { if (err) console.log('error', err); });
+
+const contentC = contentA.concat(contentB);
+
+fs.writeFile(process.argv[4], contentC, 'utf8', function (err, result) { if (err) console.log('error', err); });
