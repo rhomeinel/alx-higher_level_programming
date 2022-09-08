@@ -65,9 +65,9 @@ $ python3
 '1.4.22'
 ```
 Also, you can have this warning message:
--------------------------------------------------------------------------------------------------
+```
  /usr/local/lib/python3.4/dist-packages/sqlalchemy/engine/default.py:552: Warning: (1681, "'@@SESSION.GTID_EXECUTED' is deprecated and will be re
 moved in a future release.")                                                                                                                    
   cursor.execute(statement, parameters) 
-------------------------------------------------------------------------------------------------
+```
 You can ignore it. 
